@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+  }
+
+/* Body */
+
+.body {
+    background-color: rgba(255, 246, 235, 0.281);
+}
+
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.44rem;
+    padding: 0 12%;
+    width: 100%;
+    background-color:  rgba(214, 187, 154, 0.199);
+    box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.05);
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    position: fixed;
+    z-index: 10;
+  }
+  
+  .header .logo {
+    flex-grow: 1;
+    color: #3d7c57;
+    font-weight: 600;
+  }
+  
+  .header li {
+    display: inline;
+    padding-right: 2.22rem;
+  }
+  
+  .header li a {
+    text-decoration: none;
+    color: #153f0d;
+  }
+
+  .header li a:hover {
+    color: rgb(150, 187, 145);
+  }
+  
+  @media only screen and (max-width: 550px) {
+    .header {
+      flex-direction: column;
+    }
+  
+    .header .logo {
+      flex-grow: 0;
+    }
+  }
+  
+  /* Banner and Content */
+  .banner {
+    background: linear-gradient( rgba(248, 238, 233, 0.5), rgba(238, 226, 217, 0.5) ), 
+    url(../images/IMG_8190.jpg);
+    text-align: center;
+    height: 33rem;
+    padding: 6.3rem 6.3rem;
+    top: 4.44rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    box-sizing: border-box;
+    color: rgba(9, 44, 19, 0.829);
+    text-shadow: 2px 2px 2px rgba(255, 246, 235, 0.41);
+}
+
+.banner .content  {
+    border: 0.2rem solid rgba(255, 246, 235, 0.41);
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    width: 40rem;
+    height: 18rem;
+    margin: 0 auto;
+  }
+
+.name {
+    font-family: 'Montserrat';
+    font-size: 4.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: whitesmoke;
+}
+
+.blurb {
+    font-family: 'Montserrat';
+    font-size: 1.23rem;
+    font-weight: 700;
+    padding-bottom: 20rem;
+    font-style: italic;
+}
+
+.checkbelow {
+    color: rgb(6, 48, 9);
+    font-family: "Montserrat";
+    font-size: 0.9rem;
+    font-weight: 600;
+    min-width: 30rem;
+}
+
+/* filler */
+.filler {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    position: relative;
+    top: 4.44rem;
+}
+/* Contact Me Footer */
+
+.contactme {
+    background-color: rgba(214, 187, 154, 0.199);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    margin: 1px auto;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    font-family: "Montserrat";
+    padding: 0 30%;
+  }
+
+.contactme h3 {
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding-right: 1rem;
+    min-width: 20rem;
+    text-align: center;
+}
+  
+  .contactme a {
+    background: rgba(255, 247, 239, 0.212);
+    border: 1px solid rgb(61, 114, 60);
+    height: 2.00rem;
+    border-radius: 3px;
+    border-style: normal;
+    color: rgb(11, 68, 4);
+    display: inline-block;
+    margin: 0.7rem;
+    padding: 0.4rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .contactme a:hover {
+    background: rgb(163, 202, 153);
+    border: 1px solid rgb(168, 214, 162);
+    border-style: normal;
+    color: white;
+  }
