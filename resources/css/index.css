@@ -107,13 +107,14 @@
     min-width: 30rem;
 }
 
-/* filler */
-.filler {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2rem;
+.profilepic {
+    display: flex;
     position: relative;
     top: 4.44rem;
+    width: 60%;
+    height: 60%;
 }
+
 /* Contact Me Footer */
 
 .contactme {
