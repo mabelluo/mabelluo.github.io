@@ -59,7 +59,7 @@
   /* Banner and Content */
   .banner {
     background: linear-gradient( rgba(248, 238, 233, 0.5), rgba(238, 226, 217, 0.5) ), 
-    url(../images/IMG_8190.jpg);
+    url(../../images/IMG_8190.jpg);
     text-align: center;
     height: 33rem;
     padding: 6.3rem 6.3rem;
