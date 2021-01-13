@@ -13,10 +13,10 @@
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 4.25rem;
-    padding: 0 12%;
+    padding: 0 5%;
     width: 100%;
     background-color:  rgba(214, 187, 154, 0.199);
     box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.05);
@@ -26,10 +26,15 @@
     z-index: 10;
   }
   
-  .header .logo {
+  .header .logo a {
     flex-grow: 1;
     color: #3d7c57;
     font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .header .logo a:hover {
+    color: rgb(150, 187, 145);
   }
   
   .header li {
@@ -45,6 +50,7 @@
   .header li a:hover {
     color: rgb(150, 187, 145);
   }
+
   
   @media only screen and (max-width: 550px) {
     .header {
@@ -127,6 +133,7 @@
   top: 4.44rem;
   margin: 3rem;
   border: 2rem;
+  flex-shrink: 3;
 }
 
 .aboutme {
@@ -134,11 +141,12 @@
   margin: 3rem;
   color:white;
   align-self: center;
+  flex: 1;
 }
 /* Contact Me Footer */
 
 .contactme {
-    background-color: rgba(255, 242, 227, 0.719);
+    background-color: rgba(255, 242, 227, 0.774);
     display: flex;
     justify-content: space-around;
     position: fixed;
@@ -177,4 +185,9 @@
     border: 1px solid rgb(167, 202, 162);
     border-style: normal;
     color: white;
+  }
+
+  .thinbanner {
+    top: 4.4rem;
+    position: relative;
   }
