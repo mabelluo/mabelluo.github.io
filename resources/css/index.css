@@ -5,7 +5,7 @@
 /* Body */
 
 .body {
-    background-color: rgba(255, 246, 235, 0.281);
+    background-color: rgba(255, 248, 240, 0.747);
 }
 
 
@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 4.44rem;
+    height: 4.25rem;
     padding: 0 12%;
     width: 100%;
     background-color:  rgba(214, 187, 154, 0.199);
@@ -61,9 +61,9 @@
     background: linear-gradient( rgba(248, 238, 233, 0.5), rgba(238, 226, 217, 0.5) ), 
     url(../images/IMG_8190.jpg);
     text-align: center;
-    height: 33rem;
+    height: 28rem;
     padding: 6.3rem 6.3rem;
-    top: 4.44rem;
+    top: 4.40rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -79,7 +79,7 @@
     top: 0px;
     bottom: 0px;
     width: 40rem;
-    height: 18rem;
+    height: 16rem;
     margin: 0 auto;
   }
 
@@ -107,18 +107,38 @@
     min-width: 30rem;
 }
 
-.profilepic {
-    display: flex;
-    position: relative;
-    top: 4.44rem;
-    width: 60%;
-    height: 60%;
+/* Main Content */
+.maincontent {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  font-weight: 400;
+  border: 5rem;
+  background-color: rgba(1, 24, 8, 0.829);
+  background-size: cover;
+  background-blend-mode: darken;
+  padding: 5rem 5rem;
 }
 
+/* Profile Photo */
+.profilepic {
+  top: 4.44rem;
+  margin: 3rem;
+  border: 2rem;
+}
+
+.aboutme {
+  top: 4.44rem;
+  margin: 3rem;
+  color:white;
+  align-self: center;
+}
 /* Contact Me Footer */
 
 .contactme {
-    background-color: rgba(214, 187, 154, 0.199);
+    background-color: rgba(255, 242, 227, 0.719);
     display: flex;
     justify-content: space-around;
     position: fixed;
@@ -154,7 +174,7 @@
   
   .contactme a:hover {
     background: rgb(163, 202, 153);
-    border: 1px solid rgb(168, 214, 162);
+    border: 1px solid rgb(167, 202, 162);
     border-style: normal;
     color: white;
   }
