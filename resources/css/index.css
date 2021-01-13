@@ -187,7 +187,19 @@
     color: white;
   }
 
+ 
   .thinbanner {
     top: 4.4rem;
     position: relative;
+    height: 20rem;
+    background-color:  rgba(148, 190, 147, 0.493);
+    justify-content: center;
+    align-content: center;
+    padding: 1.5rem 3rem;
+    color: rgb(3, 41, 3);
   }
+
+  .thinbanner .name {
+    color: rgb(3, 41, 3);
+  }
+
