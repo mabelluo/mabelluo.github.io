@@ -56,7 +56,7 @@
   }
 
   
-  @media only screen and (max-width: 550px) {
+  @media only screen and (max-width: 480px) {
     .header {
       flex-direction: column;
     }
@@ -66,6 +66,34 @@
     }
   }
   
+  @media only screen and (max-width: 1600px) {
+    .maincontent {
+      display: inline-flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .profilepic {
+      display: inline-flexbox;
+      top: 4.44rem;
+      width: 27rem;
+      height: auto;
+      margin: 1rem;
+      flex: 1;
+    }
+    
+    .aboutme {
+      display: inline-flex;
+      top: 4.44rem;
+      margin: 1rem;
+      color:white;
+      align-self: center;
+      flex: 1;
+      font-size: 1.2rem;
+    }
+
+
+  }
   /* Banner and Content */
   .banner {
     background: linear-gradient( rgba(248, 238, 233, 0.5), rgba(238, 226, 217, 0.5) ), 
@@ -116,6 +144,15 @@
     min-width: 30rem;
 }
 
+.checkbelow a {
+  text-decoration: none;
+  color: rgb(6, 48, 9);
+}
+
+.checkbelow a:hover {
+  color: #509459;
+}
+
 /* Main Content */
 .maincontent {
   display: flex;
@@ -141,6 +178,7 @@
 }
 
 .aboutme {
+  display: inline-flex;
   top: 4.44rem;
   margin: 3rem;
   color:white;
