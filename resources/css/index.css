@@ -92,6 +92,20 @@
       font-size: 1.2rem;
     }
 
+    .rowimage {
+      position: relative;
+      width: 16rem;
+      height: auto;
+    }
+
+    .image-series {
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 100%;
+      flex-wrap: wrap;
+  }
 
   }
   /* Banner and Content */
@@ -324,16 +338,16 @@
 .image-series {
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: max-content;
+    width: 100%;
     flex-wrap: wrap;
-    padding-left: 10%;
+    padding: 1% 2%;
 }
 
 .rowimage {
   position: relative;
-  max-width: 20rem;
+  max-width: 25rem;
   height: auto;
   margin: 1rem;
 }
