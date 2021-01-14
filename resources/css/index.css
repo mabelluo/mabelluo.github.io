@@ -99,6 +99,13 @@
       flex: 1 !important;
     }
 
+    .embedvid {
+      align-content: space-around;
+      justify-content: space-around;
+      display: flex;
+      margin: 0 27% !important;
+    }
+
     .image-series {
       display: inline-flex;
       flex-direction: row;
@@ -355,6 +362,7 @@
 
 .embedvid {
   align-content: space-around;
+  justify-content: space-around;
   display: flex;
   margin: 0 33%;
 }
