@@ -133,10 +133,11 @@
 
 /* Profile Photo */
 .profilepic {
+  display: inline-flexbox;
   top: 4.44rem;
   margin: 3rem;
   border: 2rem;
-  flex-shrink: 3;
+  flex: 1;
 }
 
 .aboutme {
@@ -204,9 +205,12 @@
 
   .project {
     position: relative;
-    height: 50rem;
+    top: 4.5rem;
+    bottom: 2rem;
     justify-content: center;
-    padding: 3rem;
+    align-content: center;
+    padding: 1rem;
+    background-color: rgba(238, 224, 204, 0.205);
   }
 
   .image-stack {
@@ -221,21 +225,28 @@
     position: relative;
     height: 30rem;
     width: auto;
-    left: 20rem;
+    margin: 1rem 40%;
 }
 
 .photo2 {
   position: absolute;
   transform: scale(1.5);
   top: 0.7rem;
-  left: 65rem;
+  left: 120%;
 }
 
 .photo3 {
   position: absolute;
-  transform: scale(4);
-  top: 27rem;
-  left: 19rem;
+  transform: scale(5);
+  top: 30rem;
+  left: 40%;
+}
+
+.photo4 {
+  position: absolute;
+  transform: scale(3);
+  top: 33rem;
+  left: 140%;
 }
 
   .subtitle {
@@ -250,4 +261,24 @@
     padding: 1rem 3rem;
     border: 3px solid rgb(2, 56, 5);
     border-radius: 3px;
+}
+
+.description {
+  color:rgb(51, 90, 51);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 3% 8%;
+  padding: 2rem;
+  border: 2px solid rgb(5, 65, 5);
+  background: rgba(243, 228, 199, 0.418);
+}
+
+.description a {
+  text-decoration: none;
+  color:  rgb(150, 187, 145);
+}
+
+.description a:hover {
+  color: #235818;
 }
