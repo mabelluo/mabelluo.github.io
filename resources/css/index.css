@@ -223,30 +223,30 @@
 
   .basephoto {
     position: relative;
-    height: 30rem;
-    width: auto;
-    margin: 1rem 40%;
+    width: 30%;
+    height: auto;
+    margin: 1rem 10%;
 }
 
 .photo2 {
   position: absolute;
   transform: scale(1.5);
   top: 0.7rem;
-  left: 120%;
+  left: 33%;
 }
 
 .photo3 {
   position: absolute;
   transform: scale(5);
   top: 30rem;
-  left: 40%;
+  left: 10%;
 }
 
 .photo4 {
   position: absolute;
   transform: scale(3);
-  top: 33rem;
-  left: 140%;
+  top: 100%;
+  left: 25%;
 }
 
   .subtitle {
@@ -281,4 +281,27 @@
 
 .description a:hover {
   color: #235818;
+}
+
+.image-series {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: max-content;
+    flex-wrap: wrap;
+    padding-left: 10%;
+}
+
+.rowimage {
+  position: relative;
+  max-width: 20rem;
+  height: auto;
+  margin: 1rem;
+}
+
+.embedvid {
+  align-content: space-around;
+  display: flex;
+  margin: 0 33%;
 }
