@@ -16,7 +16,7 @@
 /* Header */
 
 .header {
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     align-items: center;
     height: 4.25rem;
@@ -31,29 +31,78 @@
   }
   
   .header .logo a {
+    position: relative;
     flex-grow: 1;
     color: #3d7c57;
     font-weight: 600;
     text-decoration: none;
+    align-self: center;
+    justify-content: center;
+    top: 1.5rem;
   }
   
   .header .logo a:hover {
     color: rgb(150, 187, 145);
   }
   
-  .header li {
-    display: inline;
-    padding-right: 2.22rem;
+  .navbar li {
+    height: auto; 
+    position: relative;
+    text-align: center;
+    float: right;
+    list-style: none;
+    padding: 0cm 1rem;
+    margin: 0;
+    bottom: 0.6rem;
+  }
+
+  .navbar a {
+    padding: 1rem; 
+    border: 1px solid rgb(8, 73, 8);
+    border-radius: 1px;
   }
   
-  .header li a {
+  .navbar li a {
     text-decoration: none;
     color: #153f0d;
   }
 
+  
   .header li a:hover {
-    color: rgb(150, 187, 145);
+    color: rgb(17, 54, 13);
+    background:  #6b967165;
   }
+
+    .navbar li ul {
+      position: relative;
+      display: none;
+      margin: 0;
+      padding: 0;
+      width: 9rem;
+      top: 1.5rem;
+      left: 0.9rem;
+    }
+    
+    .navbar li:hover ul {
+      display: block;
+      height: 1rem;
+    }
+    
+    .navbar li ul li {
+      background-color: #ffffff00;
+      width: 10.8rem;
+    }
+    
+    .navbar li ul li a {
+      display: block;
+      border: 1px solid #022c01;
+    }
+    
+    .navbar li ul li a:hover {
+      background-color: #6b967165;
+    }
+
+
 
   
   @media only screen and (max-width: 480px) {
@@ -94,7 +143,7 @@
 
     .rowimage  {
       position: relative !important; 
-      max-width: 15rem !important;
+      max-width: 16rem !important;
       height: auto !important;
       flex: 1 !important;
     }
@@ -113,7 +162,7 @@
       align-items: flex-start;
       width: 100%;
       flex-wrap: wrap;
-  }
+    }
 
   }
   /* Banner and Content */
@@ -207,6 +256,7 @@
   align-self: center;
   flex: 1;
 }
+
 /* Contact Me Footer */
 
 .contactme {
@@ -251,6 +301,7 @@
     color: white;
   }
 
+  /* Subpage Banners */
   .thinbanner {
     top: 4.4rem;
     position: relative;
@@ -263,6 +314,8 @@
     color: rgb(3, 41, 3);
   }
 
+/* Project Sections */
+
   .project {
     position: relative;
     top: 4.5rem;
@@ -273,6 +326,7 @@
     background-color: rgba(183, 192, 181, 0.185);
   }
 
+  /* Chuckie Egg image stack */
   .image-stack {
     position: relative;
     max-height: 50rem;
@@ -308,6 +362,7 @@
   top: 100%;
   left: 25%;
 }
+
 
   .subtitle {
     position: relative;
@@ -381,11 +436,20 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 1rem 0;
+  padding: 1rem 1rem;
 }
 
 .col {
   display: inline-flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.docembed {
+  align-content: space-around;
+  justify-content: space-around;
+  display: flex;
+  margin: 0 30%;
+  width: 40%;
+  height: 55rem;
 }
