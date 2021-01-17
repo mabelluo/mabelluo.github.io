@@ -94,7 +94,7 @@
 
     .rowimage  {
       position: relative !important; 
-      width: 15rem !important;
+      max-width: 15rem !important;
       height: auto !important;
       flex: 1 !important;
     }
@@ -254,9 +254,9 @@
   .thinbanner {
     top: 4.4rem;
     position: relative;
-    background-color: rgba(148, 190, 147, 0.493);
+    background-color: rgba(163, 197, 162, 0.493);
     padding: 1rem 3rem;
-    color: rgb(3, 41, 3);
+    color: rgb(4, 44, 4);
   }
 
   .thinbanner .name {
@@ -270,7 +270,7 @@
     justify-content: center;
     align-content: center;
     padding: 1rem;
-    background-color: rgba(238, 224, 204, 0.205);
+    background-color: rgba(183, 192, 181, 0.185);
   }
 
   .image-stack {
@@ -346,7 +346,7 @@
 .image-series {
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
