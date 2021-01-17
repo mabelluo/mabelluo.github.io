@@ -355,9 +355,9 @@
 
 .rowimage {
   position: relative;
-  width: 25rem;
+  width: 26rem;
   height: auto;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .embedvid {
@@ -365,4 +365,27 @@
   justify-content: space-around;
   display: flex;
   margin: 0 33%;
+}
+
+hr {
+  display: block;
+  position: relative;
+  border: 1px;
+  background-color: #235818;
+  top: 4.5rem;
+  height: 0.4rem;
+}
+
+.cards {
+  background-color: #2d53305d;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+
+.col {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
