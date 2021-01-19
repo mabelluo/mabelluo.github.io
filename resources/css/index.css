@@ -203,6 +203,10 @@
     top: 100% !important;
     left: 20% !important;
   }
+      
+  .docembed {
+    height: 35rem !important;
+  }
 
 }
   /* Banner and Content */
