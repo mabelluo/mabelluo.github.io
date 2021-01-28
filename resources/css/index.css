@@ -119,6 +119,7 @@
 
     .aboutme {
       flex-direction: column;
+      overflow: scroll;
     }
   }
   
