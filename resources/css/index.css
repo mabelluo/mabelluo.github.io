@@ -110,7 +110,7 @@
   @media only screen and (max-width: 480px) {
     .header .navbar {
       flex-direction: column !important;
-      height: auto;
+      height: auto !important;
     }
   
     .header .logo {
@@ -118,8 +118,12 @@
     }
 
     .aboutme {
-      flex-direction: column;
-      overflow: scroll;
+      flex-direction: column !important;
+      overflow: scroll !important;
+    }
+
+    .checkbelow {
+      visibility: hidden !important;
     }
   }
   
@@ -216,6 +220,10 @@
     margin: 0 20% !important;
   }
 
+  .banner .content {
+    width: 55% !important;
+  }
+
 }
   /* Banner and Content */
   .banner {
@@ -239,7 +247,7 @@
     position: relative;
     top: 0px;
     bottom: 0px;
-    width: 40rem;
+    width: 40%;
     height: 16rem;
     margin: 0 auto;
   }
