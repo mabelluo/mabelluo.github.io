@@ -118,10 +118,47 @@
       flex-grow: 0;
     }
 
+    .banner {
+      width: 100%;
+      height: 28rem;
+      padding: 6.3rem 6.3rem;
+      top: 4.40rem;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+  }
+  
+  .banner .content  {
+      border: 0.2rem solid rgba(255, 246, 235, 0.41);
+      position: relative;
+      top: 0px;
+      bottom: 0px;
+      width: 70%;
+      height: 16rem;
+      margin: 0 auto;
+    }
+  
+  .name {
+      font-family: 'Montserrat';
+      font-size: 4rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-shadow: whitesmoke;
+  }
+  
+  .blurb {
+      font-family: 'Montserrat';
+      font-size: 1.2rem;
+      font-weight: 600;
+      font-style: italic;
+  }
+
     .maincontent {
       display: flex !important;
       flex-direction: column !important;
       overflow: scroll !important;
+      border: 1rem !important;
     }
 
     .checkbelow {
@@ -130,9 +167,9 @@
 
     .profilepic {
       display: flex;
-      width: 15rem;
+      width: 14rem;
       height: auto;
-      margin: 1rem;
+      margin: 2rem;
       flex: 1;
     }
   }
