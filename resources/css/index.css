@@ -125,6 +125,14 @@
     .checkbelow {
       visibility: hidden !important;
     }
+
+    .profilepic {
+      display:inline-flexbox;
+      width: 15rem;
+      height: auto;
+      margin: 1rem;
+      flex: 1;
+    }
   }
   
   @media only screen and (max-width: 1600px) {
