@@ -119,7 +119,7 @@
     }
 
     .banner {
-      width: 100%;
+      width: 100% !important;
       height: 28rem;
       padding: 6.3rem 6.3rem;
       top: 4.40rem;
@@ -134,23 +134,23 @@
       position: relative;
       top: 0px;
       bottom: 0px;
-      width: 70%;
-      height: 16rem;
+      width: 70% !important;
+      height: 20rem !important;
       margin: 0 auto;
     }
   
   .name {
       font-family: 'Montserrat';
-      font-size: 4rem;
-      font-weight: 600;
+      font-size: 4rem !important;
+      font-weight: 600 !important;
       text-transform: uppercase;
       text-shadow: whitesmoke;
   }
   
   .blurb {
       font-family: 'Montserrat';
-      font-size: 1.2rem;
-      font-weight: 600;
+      font-size: 1.2rem !important;
+      font-weight: 600 !important;
       font-style: italic;
   }
 
@@ -167,12 +167,18 @@
 
     .profilepic {
       display: flex;
-      width: 14rem;
+      width: 14rem !important;
       height: auto;
-      margin: 2rem;
+      margin: 2rem !important;
       flex: 1;
     }
+
+    .aboutme {
+      display: flex !important;
+      font-size: 1rem!important;
+    }
   }
+  
   
   @media only screen and (max-width: 1600px) {
     .maincontent {
